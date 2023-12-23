@@ -12,10 +12,10 @@ ul {
     list-style: none;
 }
 
-
+/*------Header------*/
 .logo {
-    color: #2E2F42;
-    font-family: Raleway;
+    color: #4D5AE5;
+    font-family: Raleway sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -24,7 +24,13 @@ ul {
 }
 
 .logo-paint {
-    color: #4D5AE5;
+    color: #2E2F42;
+    font-family: Raleway sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .nav-link {
@@ -61,30 +67,31 @@ ul {
 
 .effective {
     background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
 }
 
 .effective-title {
-    color: #FFF;
+    color: #FFFFFF;
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
 
-.effective-btn {
-    border-radius: 4px;
+.efective-link {
     background-color: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
 }
 
-.addres-battom:hover,
-.addres-battom:focus {
-    color: #404BBF;
+
+.efective-link:hover {
+    background: #404BBF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition: 0.2s;
 }
 
+.btn-link {}
 
 .effective-btn-text {
     color: #FFF;
@@ -94,11 +101,15 @@ ul {
     letter-spacing: 0.04em;
 }
 
-/*------- ------*/
+/*-------Section technical------*/
 
 .section-technical {}
 
-.technical-skils-title {}
+.technical-skils-title {
+    font-size: 0;
+    position: absolute;
+    left: -9999px;
+}
 
 .technikal-title {
     color: #2E2F42;
@@ -124,6 +135,7 @@ ul {
 
 .team-title {
     color: #2E2F42;
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -131,13 +143,16 @@ ul {
     text-transform: capitalize;
 }
 
-.team-list {}
+.team-list {
+    background-color: #FFFFFF;
+    text-align: center;
+}
 
 .team-name {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
@@ -155,6 +170,7 @@ ul {
 
 .portfolio {
     color: #2E2F42;
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -162,7 +178,9 @@ ul {
     text-transform: capitalize;
 }
 
-.portfolio-list {}
+.portfolio-list {
+    text-align: center;
+}
 
 .portfolio-list-item {}
 
@@ -189,7 +207,7 @@ ul {
 
 .logo-footer {
     color: #F4F4FD;
-    font-family: Raleway;
+    font-family: Raleway sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
