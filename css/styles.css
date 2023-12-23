@@ -15,7 +15,7 @@ ul {
 /*------Header------*/
 .logo {
     color: #4D5AE5;
-    font-family: Raleway sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -25,7 +25,7 @@ ul {
 
 .logo-paint {
     color: #2E2F42;
-    font-family: Raleway sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -82,24 +82,22 @@ ul {
     background-color: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
-}
-
-
-.efective-link:hover {
-    background: #404BBF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    transition: 0.2s;
-}
-
-.btn-link {}
-
-.effective-btn-text {
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
 }
+
+
+.efective-link:hover,
+.efective-link:focus {
+    background: #404BBF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    transition: 0.2s;
+}
+
+.btn-link {}
 
 /*-------Section technical------*/
 
@@ -138,7 +136,7 @@ ul {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -159,7 +157,6 @@ ul {
 .tean-work {
     color: #434455;
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -207,7 +204,7 @@ ul {
 
 .logo-footer {
     color: #F4F4FD;
-    font-family: Raleway sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
