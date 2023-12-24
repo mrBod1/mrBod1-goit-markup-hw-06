@@ -80,7 +80,6 @@ ul {
 
 .efective-link {
     background-color: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     cursor: pointer;
     color: #FFF;
     font-size: 16px;
@@ -93,7 +92,6 @@ ul {
 .efective-link:hover,
 .efective-link:focus {
     background: #404BBF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /*-------Section technical------*/
@@ -141,6 +139,7 @@ ul {
 }
 
 .team-list {
+    background-color: #FFFFFF;
     text-align: center;
 }
 
