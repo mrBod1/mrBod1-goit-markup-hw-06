@@ -102,9 +102,7 @@ ul {
     font-size: 0;
 }
 
-.technical-list {
-    background-color: #FFFFFF;
-}
+.technical-list {}
 
 .technical-title {
     color: #2E2F42;
@@ -139,8 +137,11 @@ ul {
 }
 
 .team-list {
-    background-color: #FFFFFF;
     text-align: center;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
 }
 
 .team-name {
