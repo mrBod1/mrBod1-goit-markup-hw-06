@@ -102,7 +102,6 @@ ul {
 
 .technical-skils-title {
     font-size: 0;
-    position: absolute;
 }
 
 .technical-list {
@@ -142,7 +141,6 @@ ul {
 }
 
 .team-list {
-    background-color: #FFFFFF;
     text-align: center;
 }
 
