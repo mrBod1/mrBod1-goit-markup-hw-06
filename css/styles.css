@@ -34,8 +34,11 @@ p {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    ;
+}
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 img {
@@ -86,10 +89,6 @@ img {
 .menu-list {
     display: flex;
     gap: 40px;
-
-}
-
-.menu-item {
     padding: 24px 0;
 }
 
@@ -99,6 +98,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .nav-link:hover,
@@ -136,12 +136,6 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-
 }
 
 .effective-title {
