@@ -47,12 +47,6 @@ img {
 .header {
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-shrink: 0;
-
-
 }
 
 .navigation {
@@ -89,9 +83,12 @@ img {
 .menu-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+
 }
 
+.menu-item {
+    padding: 24px 0;
+}
 
 .addres-list {
     display: flex;
