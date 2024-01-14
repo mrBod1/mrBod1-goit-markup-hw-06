@@ -447,3 +447,9 @@ img {
     display: flex;
     gap: 16px;
 }
+
+.footer-icones {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
