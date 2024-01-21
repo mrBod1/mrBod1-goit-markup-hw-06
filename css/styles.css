@@ -812,7 +812,7 @@ input {
 }
 
 .visually-hidden:checked+.modal-check-text span {
-    background-color: #4D5AE5;
+    background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
