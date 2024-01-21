@@ -811,7 +811,7 @@ input {
     color: #4D5AE5;
 }
 
-.checkbox-modal:checked+.modal-check-text span {
+.visually-hidden:checked+.modal-check-text span {
     background-color: #4D5AE5;
     border: none;
     fill: #F4F4FD;
